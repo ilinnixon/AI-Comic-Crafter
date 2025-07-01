@@ -41,7 +41,7 @@ def generate_panels(scenario, art_style):
     """
     formatted_prompt = template.format(scenario=scenario, art_style=art_style)
     
-    model = genai.GenerativeModel("gemini-1.5-pro")
+    model = genai.GenerativeModel("gemini-2.5-pro")
     response = model.generate_content(formatted_prompt)
     
     if not response or not response.text:
