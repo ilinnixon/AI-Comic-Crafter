@@ -97,7 +97,7 @@ def generate_story(scenario, art_style):
     {scenario}
     """
     formatted_prompt = template.format(scenario=scenario, art_style=art_style)
-    model = genai.GenerativeModel("gemini-1.5-pro")
+    model = genai.GenerativeModel("gemini-2.5-pro")
     response = model.generate_content(formatted_prompt)
     if not response or not response.text:
         raise Exception("Error: Failed to generate story.")
