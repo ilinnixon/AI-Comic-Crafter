@@ -155,9 +155,10 @@ ComicCrafter-AI/
 
 ---
 <div align="center">
-Made with ❤️ Balajee
+Made by Anvesha & Balajee 
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=yourusername.ComicCrafter-AI)
 </div>
+
 
 
